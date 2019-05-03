@@ -7,9 +7,9 @@ while counter < x
     return "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep(x)
+def countdown_with_sleep(num_secs)
   counter = 0
-while counter < x
+while counter < 10
   counter -= 1
   sleep 5
 end
