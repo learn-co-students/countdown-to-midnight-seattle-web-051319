@@ -5,8 +5,8 @@ while x > 1
   x -= 1
   if x == 0
   break
+    puts "HAPPY NEW YEAR!"
   end
-  puts "HAPPY NEW YEAR!"
 end
 
 def countdown_with_sleep(num_secs)
