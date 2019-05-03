@@ -1,8 +1,8 @@
 def countdown(x)
   counter = 0
-while counter <= 10
+while counter < 10
   puts "#{x} SECOUND(S)!"
-  break if counter == 0
+  break if counter == 10
   counter -= 1
   end
 end
