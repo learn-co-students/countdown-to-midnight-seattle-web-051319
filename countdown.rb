@@ -6,8 +6,10 @@ while x < 10
   if x == 10
   break
     puts "HAPPY NEW YEAR!"
-end
+  end
 end
 
 def countdown_with_sleep(num_secs)
     sleep 1
+  end
+end
