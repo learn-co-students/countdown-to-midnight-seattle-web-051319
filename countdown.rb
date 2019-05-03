@@ -3,13 +3,13 @@ def countdown(x)
 while x > 1
   puts "#{x} SECOUND(S)!"
   x -= 1
-  if x == 1
+  if x == 0
   break
-    puts "HAPPY NEW YEAR!"
   end
+  puts "HAPPY NEW YEAR!"
 end
 
 def countdown_with_sleep(num_secs)
-    sleep 1
+    sleep 5
   end
 end
