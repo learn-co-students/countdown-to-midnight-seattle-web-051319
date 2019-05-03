@@ -11,7 +11,7 @@ def countdown_with_sleep(num_secs)
   counter = 0
 while counter < num_secs
   counter -= 1
-  sleep (5)
+  sleep >=5
 end
   return "HAPPY NEW YEAR!"
 end
