@@ -1,13 +1,12 @@
 def countdown(x)
-  x = 10
-while x >= 2
+  counter = 1
+while counter >= 1
   puts "#{x} SECOUND(S)!"
-  break if x == 2
-  x -= 1
+  break if x == 1
+  counter -= 1
   end
 end
 
 def countdown_with_sleep(num_secs)
   sleep 10
   end
-puts "HAPPY NEW YEAR!"
